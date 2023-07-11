@@ -1,0 +1,109 @@
+<header>
+  <div class="container-fluid hwu-header-content">
+  <div class="container hwu-header">
+    <div class="d-flex flex-row justify-content-between">
+      <a class="navbar-brand my-2" routerLink="/home">
+        <img src="/assets/hwu/images/hwu-logo.png" [attr.alt]="'menu.header.image.logo' | translate"/>
+      </a>
+
+      <h1 class="hidden-xs hidden-sm">
+        <a routerLink="/home">
+            ROS Theses Repository
+        </a>
+      </h1>
+
+      <nav role="navigation" [attr.aria-label]="'nav.user.description' | translate" class="navbar navbar-light navbar-expand-md flex-shrink-0 px-0">
+        <ds-themed-search-navbar></ds-themed-search-navbar>
+        <ds-lang-switch></ds-lang-switch>
+        <ds-context-help-toggle></ds-context-help-toggle>
+        <ds-themed-auth-nav-menu></ds-themed-auth-nav-menu>
+        <ds-impersonate-navbar></ds-impersonate-navbar>
+        <div class="pl-2">
+          <button class="navbar-toggler" type="button" (click)="toggleNavbar()"
+                  aria-controls="collapsingNav"
+                  aria-expanded="false" [attr.aria-label]="'nav.toggle' | translate">
+            <span class="navbar-toggler-icon fas fa-bars fa-fw" aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<!-- <header>
+  <div class="container-fluid hwu-header-content">
+    <div class="container">
+    <div class="hwu-header">
+    <div class="d-flex flex-row justify-content-between">
+      <h1 class="hidden-xs hidden-sm">
+        <a routerLink="/home">
+            ROS Theses Repository
+        </a>
+      </h1>
+      <a class="navbar-brand my-2" href="//www.hw.ac.uk">
+        <img src="/assets/hwu/images/hwu-logo.png" [attr.alt]="'menu.header.image.logo' | translate"/>
+      </a>
+    </div>
+      <div class="d-flex justify-content-end">
+
+        <ds-themed-search-navbar></ds-themed-search-navbar>
+          <ds-lang-switch></ds-lang-switch>
+          <ds-context-help-toggle></ds-context-help-toggle>
+          <ds-themed-auth-nav-menu></ds-themed-auth-nav-menu>
+          <ds-impersonate-navbar></ds-impersonate-navbar>
+          <div class="pl-2">
+            <button class="navbar-toggler" type="button" (click)="toggleNavbar()"
+                    aria-controls="collapsingNav"
+                    aria-expanded="false" [attr.aria-label]="'nav.toggle' | translate">
+              <span class="navbar-toggler-icon fas fa-bars fa-fw" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+   
+  </div>
+
+     <nav role="navigation" [attr.aria-label]="'nav.user.description' | translate" class="navbar navbar-light navbar-expand-md flex-shrink-0 px-0">
+      <div class="d-flex justify-content-end">
+
+      <ds-themed-search-navbar></ds-themed-search-navbar>
+        <ds-lang-switch></ds-lang-switch>
+        <ds-context-help-toggle></ds-context-help-toggle>
+        <ds-themed-auth-nav-menu></ds-themed-auth-nav-menu>
+        <ds-impersonate-navbar></ds-impersonate-navbar>
+        <div class="pl-2">
+          <button class="navbar-toggler" type="button" (click)="toggleNavbar()"
+                  aria-controls="collapsingNav"
+                  aria-expanded="false" [attr.aria-label]="'nav.toggle' | translate">
+            <span class="navbar-toggler-icon fas fa-bars fa-fw" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      </nav>
+    </div>
+
+</div>
+</header>
+-->
+<!-- <header class="hwu-header">
+  <div class="container hwu-header-content">
+      <div class="row">
+          <div class="col-xs-9 col-sm-10 header-title">
+              <h1 class="hidden-xs hidden-sm">
+                  <a href="{$context-path}/">
+                      ROS Theses Repository
+                  </a>
+              </h1>
+          </div>
+          <div class="col-xs-3 col-sm-2">
+              <a id="logo" href="//www.hw.ac.uk" class="pull-right" title="Heriot-Watt University Home">
+                  <img src="{$theme-path}images/hwu-logo.png" />
+              </a>
+          </div>
+      </div>
+      <div class="clearfix"></div>
+  </div> -->
+
