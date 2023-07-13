@@ -15,17 +15,17 @@
           </a>
         </div>
         <div class="table-responsive">
-          <table class="table  table-striped">
-            <tbody>
-            <ng-container *ngFor="let mdEntry of (metadata$ | async) | keyvalue">
-              <tr *ngFor="let mdValue of mdEntry.value">
-                <td>{{mdEntry.key}}</td>
-                <td>{{mdValue.value}}</td>
-                <td>{{mdValue.language}}</td>
-              </tr>
-            </ng-container>
-            </tbody>
-          </table>
+          <div class="table  table-striped">
+            <div class="div-table-body">
+              <ng-container *ngFor="let mdEntry of (metadata$ | async) | keyvalue">
+                <div *ngFor="let mdValue of mdEntry.value" class="div-table-row">
+                  <div class="div-table-column div-table-key">{{mdEntry.key}}</div>
+                  <div class="div-table-column div-table-value">{{mdValue.value}}</div>
+                  <div class="div-table-column div-table-language">{{mdValue.language}}</div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
         </div>
         <ds-themed-item-page-full-file-section [item]="item"></ds-themed-item-page-full-file-section>
         <ds-item-page-collections [item]="item"></ds-item-page-collections>

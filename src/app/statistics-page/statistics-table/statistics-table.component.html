@@ -1,36 +1,36 @@
 <div *ngIf="hasData"
      class="m-1">
 
-  <h3 class="m-1">
+  <h2 class="m-1">
     {{ 'statistics.table.title.' + report.reportType | translate }}
-  </h3>
+  </h2>
 
-  <table class="table table-striped" [attr.data-test]="report.reportType">
-
-    <tbody>
-
-    <tr>
-      <td></td>
-      <th scope="col"
-          *ngFor="let header of headers"
-          class="{{header}}-header">
-        {{ header }}
-      </th>
-    </tr>
-
-    <tr *ngFor="let point of report.points"
-        class="{{point.id}}-data">
-      <th scope="row" data-test="statistics-label">
-        {{ getLabel(point) | async }}
-      </th>
-      <td *ngFor="let header of headers"
-          class="{{point.id}}-{{header}}-data">
-        {{ point.values[header] }}
-      </td>
-    </tr>
-
-    </tbody>
-
-  </table>
-
+  <div class="table-responsive">
+    <div class="table table-striped" [attr.data-test]="report.reportType">
+      <div class="div-table-body">
+          <div class="div-table-row">
+            <div class="div-table-stats-column-1"></div>
+            <div class="div-table-stats-column-2 div-table-stats-clolumn-2-bold" 
+              scope="col"
+              *ngFor="let header of headers"
+              class="{{header}}-header">
+              {{ header }}
+            </div>
+          </div>
+          <div class="div-table-row" 
+                *ngFor="let point of report.points"
+                class="{{point.id}}-data">
+            <div class="div-table-stats-column-1 div-table-stats-clolumn-1-bold" 
+                  scope="row" 
+                  data-test="statistics-label">
+              {{ getLabel(point) | async }}
+            </div>
+            <div class="div-table-stats-column-2" 
+                  *ngFor="let header of headers"
+                class="{{point.id}}-{{header}}-data">
+              {{ point.values[header] }}
+            </div>
+          </div>
+      </div>
+    </div>
 </div>

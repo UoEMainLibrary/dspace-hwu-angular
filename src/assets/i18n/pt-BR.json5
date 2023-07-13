@@ -3611,7 +3611,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Por favor entre no DSpace",
 
-  // "login.form.new-user": "New user? Click here to register.",
+  // "login.form.new-user": "New user? Register here.",
   "login.form.new-user": "Novo usuário? Clique aqui para cadastrar.",
 
   // "login.form.or-divider": "or",

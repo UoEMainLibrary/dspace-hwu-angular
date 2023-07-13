@@ -21,3 +21,96 @@
     font-size: 1.1rem
   }
 }
+
+// fixing breadcrumb link colour contrast error
+a.text-truncate {
+  color: #125774!important;
+}
+
+// skipped header level fixes
+.community-list-header {
+  font-size: 2rem;
+}
+.community-list-second-header {
+  font-size: 1.25rem;
+}
+
+// fixing skipped level header on simple item view - also fixes level header issue on full item view
+.simple-view-element-header {
+  font-size: 1.25rem;
+}
+
+// fixing/replacing full item page table for divs
+.div-table-body {
+  vertical-align: middle;
+  border-color: inherit;
+  color: #343a40;
+}
+
+.div-table-body .div-table-row:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.div-table-row {
+  width: 100%;
+  display: table;
+}
+
+.div-table-column {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 33.3%;
+}
+
+.div-table-column.div-table-language {
+  text-align: right;
+  padding-right: 4rem;
+}
+
+// fixing statistics page heading levels
+.statistics-header {
+  font-size: 2rem;
+}
+.m-1 h2 {
+  font-size: 1.75rem;
+}
+
+.div-table-stats-column-1 {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 75%;
+}
+.div-table-stats-clolumn-1-bold {
+  font-weight: bold;
+}
+.div-table-stats-column-2 {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 25%;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #343a40;
+}
+.div-table-stats-clolumn-2-bold {
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.facet-filter-header {
+  font-size: 1.1rem;
+  margin: auto!important;
+  display: inline-block!important;
+}
+.setting-option h3 {
+  font-size: 1.1rem!important;
+}

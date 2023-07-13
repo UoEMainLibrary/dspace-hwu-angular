@@ -2896,7 +2896,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Lütfen DSpace'e giriş yapın",
 
-  // "login.form.new-user": "New user? Click here to register.",
+  // "login.form.new-user": "New user? Register here.",
   "login.form.new-user": "Yeni kullanıcı mısınız? Kayıt olmak için buraya tıklayın.",
 
   // "login.form.or-divider": "or",

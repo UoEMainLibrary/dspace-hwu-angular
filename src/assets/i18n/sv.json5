@@ -3558,7 +3558,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Logga in i ODR",
 
-  // "login.form.new-user": "New user? Click here to register.",
+  // "login.form.new-user": "New user? Register here.",
   "login.form.new-user": "Ny användare? Klicka här för att skapa ett användarkonto.",
 
   // "login.form.or-divider": "or",

@@ -2,13 +2,13 @@
     <div class="position-absolute ml-1">
         <ng-content></ng-content>
     </div>
-    <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'" [attr.rel]="(linkType == linkTypes.ExternalLink) ? 'noopener noreferrer' : null" [routerLink]="[itemPageRoute]"
-        class="card-img-top full-width" [attr.title]="'search.results.view-result' | translate">
+    <!-- <a *ngIf="linkType != linkTypes.None" [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'" [attr.rel]="(linkType == linkTypes.ExternalLink) ? 'noopener noreferrer' : null" [routerLink]="[itemPageRoute]"
+        class="card-img-top full-width" [attr.title]="'search.results.view-result' | translate"> -->
         <div>
               <ds-themed-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="false">
               </ds-themed-thumbnail>
         </div>
-    </a>
+    <!-- </a> -->
     <span *ngIf="linkType == linkTypes.None" class="card-img-top full-width">
         <div>
               <ds-themed-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="false">
@@ -19,7 +19,7 @@
         <ds-themed-badges *ngIf="showLabel" [object]="dso" [context]="context" [showAccessStatus]="true"></ds-themed-badges>
         <ds-truncatable [id]="dso.id">
             <ds-truncatable-part [id]="dso.id" [minLines]="3" type="h4">
-                <h4 class="card-title" [innerHTML]="dsoTitle"></h4>
+                <h2 class="card-title" [innerHTML]="dsoTitle"></h2>
             </ds-truncatable-part>
             <ds-truncatable-part [id]="dso.id" [minLines]="1" *ngIf="dso.hasMetadata(['dc.contributor.author', 'dc.creator', 'dc.contributor.*'])">
                 <p class="item-authors card-text text-muted">

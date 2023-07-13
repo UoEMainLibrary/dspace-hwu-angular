@@ -4,9 +4,9 @@
   <cdk-tree-node *cdkTreeNodeDef="let node; when: isShowMore" cdkTreeNodePadding
                  class="example-tree-node show-more-node">
     <div class="btn-group">
-      <button type="button" class="btn btn-default" cdkTreeNodeToggle>
+      <!-- <button type="button" class="btn btn-default" cdkTreeNodeToggle>
         <span class="fa fa-chevron-right invisible" aria-hidden="true"></span>
-      </button>
+      </button> -->
       <div class="align-middle pt-2">
         <button *ngIf="node!==loadingNode" (click)="getNextPage(node)"
            class="btn btn-outline-primary btn-sm" role="button">
@@ -34,22 +34,22 @@
               aria-hidden="true"></span>
       </button>
       <div class="d-flex flex-row">
-        <h5 class="align-middle pt-2">
+        <h2 class="align-middle pt-2">
           <a [routerLink]="node.route" class="lead">
             {{ dsoNameService.getName(node.payload) }}
           </a>
           <span class="pr-2">&nbsp;</span>
           <span *ngIf="node.payload.archivedItemsCount >= 0" class="badge badge-pill badge-secondary align-top archived-items-lead">{{node.payload.archivedItemsCount}}</span>
-        </h5>
+        </h2>
       </div>
     </div>
     <ds-truncatable [id]="node.id">
       <div class="text-muted" cdkTreeNodePadding>
         <div class="d-flex" *ngIf="node.payload.shortDescription">
-          <button type="button" class="btn btn-default invisible">
+          <!-- <button type="button" class="btn btn-default invisible">
             <span class="{{node.isExpanded ? 'fa fa-chevron-down' : 'fa fa-chevron-right'}}"
                   aria-hidden="true"></span>
-          </button>
+          </button> -->
           <ds-truncatable-part [id]="node.id" [minLines]="3">
             <span>{{node.payload.shortDescription}}</span>
           </ds-truncatable-part>
@@ -58,10 +58,10 @@
     </ds-truncatable>
     <div class="d-flex" *ngIf="node===loadingNode && dataSource.loading$ | async"
          cdkTreeNodePadding>
-      <button type="button" class="btn btn-default invisible">
+      <!-- <button type="button" class="btn btn-default invisible">
         <span class="{{node.isExpanded ? 'fa fa-chevron-down' : 'fa fa-chevron-right'}}"
               aria-hidden="true"></span>
-      </button>
+      </button> -->
       <ds-themed-loading class="ds-themed-loading"></ds-themed-loading>
     </div>
   </cdk-tree-node>
@@ -69,9 +69,9 @@
   <cdk-tree-node *cdkTreeNodeDef="let node; when: !(hasChild && isShowMore)" cdkTreeNodePadding
                  class="example-tree-node childless-node">
     <div class="btn-group">
-      <button type="button" class="btn btn-default" cdkTreeNodeToggle>
+      <!-- <button type="button" class="btn btn-default" cdkTreeNodeToggle>
         <span class="fa fa-chevron-right invisible" aria-hidden="true"></span>
-      </button>
+      </button> -->
       <h6 class="align-middle pt-2">
         <a [routerLink]="node.route" class="lead">
           {{ dsoNameService.getName(node.payload) }}
@@ -81,10 +81,10 @@
     <ds-truncatable [id]="node.id">
       <div class="text-muted" cdkTreeNodePadding>
         <div class="d-flex" *ngIf="node.payload.shortDescription">
-          <button type="button" class="btn btn-default invisible">
+          <!-- <button type="button" class="btn btn-default invisible">
             <span class="{{node.isExpanded ? 'fa fa-chevron-down' : 'fa fa-chevron-right'}}"
                   aria-hidden="true"></span>
-          </button>
+          </button> -->
           <ds-truncatable-part [id]="node.id" [minLines]="3">
             <span>{{node.payload.shortDescription}}</span>
           </ds-truncatable-part>
