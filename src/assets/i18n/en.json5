@@ -1836,7 +1836,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities in ROS",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -2816,7 +2816,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse ROS",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3494,7 +3494,7 @@
 
   "repository.title": "DSpace Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "ROS :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -4726,7 +4726,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  "title": "DSpace",
+  title: "DSpace",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5216,4 +5216,19 @@
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
 
+  "info.about.title": "About",
+
+  "info.about.breadcrumbs": "About",
+
+  "info.accessibility.title": "Accessibility",
+
+  "info.accessibility.breadcrumbs": "Accessibility",
+
+  "info.copyright.title": "Copyright",
+
+  "info.copyright.breadcrumbs": "Copyright",
+
+  "info.organised.title": "Organised",
+
+  "info.organised.breadcrumbs": "Organised",
 }
