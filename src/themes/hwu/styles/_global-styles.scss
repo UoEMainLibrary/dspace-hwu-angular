@@ -3,6 +3,19 @@
 // imports the base global style
 @import '../../../styles/_global-styles.scss';
 
+:root {
+    --ds-navbar-link-color: #8ca900;
+    --ds-navbar-link-color-hover: #8ca900;
+    --ds-home-news-link-color: #8ca900;
+    --ds-home-news-link-hover-color: #8ca900;
+    --ds-home-news-background-color: #8ca900;
+    --ds-breadcrumb-link-color: #8ca900;
+    --ds-breadcrumb-link-active-color: black;
+    --ds-footer-bg:  #716c66;
+    --ds-top-footer-bg: #625c54;
+    --ds-footer-border: 0 solid var(--ds-footer-bg); 
+}
+
 a:link,
 a:visited,
 a {

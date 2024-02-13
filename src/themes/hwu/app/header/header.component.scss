@@ -1,22 +1,26 @@
 .hwu-header {
   background-color: #b8cc00;
 }
+
  .hwu-header h1 {
   color: #444;
   font-family: "Oswald",sans-serif;
   font-size: 2.3em;
   margin: 1em;
 }
+
  .hwu-header h1 a {
   color: #524c44;
   text-decoration: none;
 }
+
  .hwu-header h1 a:hover {
   text-decoration: none;
   border-bottom: 1px dotted #ffffff;
   color: #ffffff;
 }
- #sidebar a:link,
+
+#sidebar a:link,
 #sidebar a:visited,
 #sidebar a {
   color: #524c44;

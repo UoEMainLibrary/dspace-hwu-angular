@@ -6,6 +6,12 @@
     border-top: var(--ds-footer-border);
     padding: var(--ds-footer-padding);
 
+    .hwu-footer-content {
+      background-color: var(--ds-top-footer-bg);
+      margin-top: -1rem;
+      margin-bottom: -1rem;
+    }
+
     p {
       margin: 0;
     }
