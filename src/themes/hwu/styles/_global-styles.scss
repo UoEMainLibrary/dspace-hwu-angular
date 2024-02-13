@@ -2,3 +2,21 @@
 
 // imports the base global style
 @import '../../../styles/_global-styles.scss';
+
+a:link,
+a:visited,
+a {
+    color: #8ca900;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    border-bottom: 1px dotted #8ca900;
+    color: #8ca900;
+}
+
+h3 a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}

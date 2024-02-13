@@ -1,5 +1,6 @@
 {
   // DSpace default: "All of DSpace"
+  "menu.header.image.logo": "Heriot-Watt University logo",
   "menu.section.browse_global": "Browse ROS",
   "home.top-level-communities.head": "Communities in ROS",
 
