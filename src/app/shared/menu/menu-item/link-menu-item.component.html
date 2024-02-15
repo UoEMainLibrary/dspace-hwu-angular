@@ -2,7 +2,7 @@
 <a class="nav-item nav-link"
    [ngClass]="{ 'disabled': !hasLink || item.disabled }"
    [attr.aria-disabled]="!hasLink || item.disabled"
-   [title]="('Navigation ink to ')+(item.text | translate)"
+   [title]="('Navigation link to ')+(item.text | translate)"
    [routerLink]="getRouterLink()"
    [queryParams]="item.queryParams"
    (click)="$event.stopPropagation()"

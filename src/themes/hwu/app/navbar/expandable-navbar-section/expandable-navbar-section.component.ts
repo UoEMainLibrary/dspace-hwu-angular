@@ -14,7 +14,8 @@ import { MenuID } from '../../../../../app/shared/menu/menu-id.model';
   // templateUrl: './expandable-navbar-section.component.html',
   templateUrl: '../../../../../app/navbar/expandable-navbar-section/expandable-navbar-section.component.html',
   // styleUrls: ['./expandable-navbar-section.component.scss'],
-  styleUrls: ['../../../../../app/navbar/expandable-navbar-section/expandable-navbar-section.component.scss'],
+  styleUrls: ['../../../../../app/navbar/expandable-navbar-section/expandable-navbar-section.component.scss',
+  './expandable-navbar-section.component.scss'],
   animations: [slide]
 })
 @rendersSectionForMenu(MenuID.PUBLIC, true)
