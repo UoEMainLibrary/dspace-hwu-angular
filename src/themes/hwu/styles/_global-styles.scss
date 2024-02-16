@@ -33,3 +33,89 @@ h3 a:hover {
     text-decoration: none;
     border-bottom: none;
 }
+
+// tables
+// fixing/replacing full item page table for divs
+.div-table-head {
+  //display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.div-table-tr {
+  display: flex;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.table *, .table *:before, .table *:after,
+.div-table-tr *, .div-table-tr *:before, .div-table-tr *:after,
+.div-table-head *, .div-table-head *:before, .div-table-head *:after {
+  box-sizing: unset!important;
+  -webkit-box-sizing: unset!important;
+  -moz-box-sizing: unset!important;
+}
+.div-table-th {
+  font-weight: bold;
+}
+.div-table-th, .div-table-td {
+  vertical-align: bottom;
+  border: 1px solid #dee2e6;
+}
+.div-table-body {
+  vertical-align: middle;
+  border-color: inherit;
+  color: #343a40;
+}
+.div-table-body .div-table-row:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+.div-table-row {
+  width: 100%;
+  display: table;
+}
+.div-table-column {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 33.3%;
+}
+.div-table-column.div-table-language {
+  text-align: right;
+  padding-right: 4rem;
+}
+.div-table-summery {
+  padding-right: 0.76rem;
+}
+
+// fixing statistics page heading levels
+.statistics-header {
+  font-size: 2rem;
+}
+.m-1 h2 {
+  font-size: 1.75rem;
+}
+
+.div-table-stats-column-1 {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 75%;
+}
+.div-table-stats-column-1-bold {
+  font-weight: bold;
+}
+.div-table-stats-column-2 {
+  display: table-cell;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  width: 25%;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #343a40;
+}
+.div-table-stats-column-2-bold {
+  font-weight: bold;
+}
