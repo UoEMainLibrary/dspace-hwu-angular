@@ -1,26 +1,11 @@
 :host {
 
-
   .navbar {
     background-color: var(--ds-top-footer-bg);
   }
 
   .navbar-inner-container {
     background-color: var(--ds-footer-bg);
-
-    .navbar-section {
-
-      ::ng-deep a.nav-link.dropdown-toggle,
-      ::ng-deep a.nav-link.dropdown-toggle:hover {
-        color: white;
-      }
-    }
   }
-
-
-  // ::ng-deep a.nav-link.dropdown-toggle,
-  // ::ng-deep a.nav-link.dropdown-toggle:hover {
-  //   color: white;
-  // }
 
 }
