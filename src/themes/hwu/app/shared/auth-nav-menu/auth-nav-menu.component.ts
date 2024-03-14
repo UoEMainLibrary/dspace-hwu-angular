@@ -9,8 +9,8 @@ import { fadeInOut, fadeOut } from '../../../../../app/shared/animations/fade';
  */
 @Component({
   selector: 'ds-auth-nav-menu',
-  // templateUrl: 'auth-nav-menu.component.html',
-  templateUrl: '../../../../../app/shared/auth-nav-menu/auth-nav-menu.component.html',
+  templateUrl: 'auth-nav-menu.component.html',
+  // templateUrl: '../../../../../app/shared/auth-nav-menu/auth-nav-menu.component.html',
   // styleUrls: ['auth-nav-menu.component.scss'],
   styleUrls: ['../../../../../app/shared/auth-nav-menu/auth-nav-menu.component.scss'],
   animations: [fadeInOut, fadeOut]
