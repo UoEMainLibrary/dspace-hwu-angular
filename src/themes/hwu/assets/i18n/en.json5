@@ -5,6 +5,7 @@
   "home.top-level-communities.head": "Communities in ROS",
 
   "login.form.header": "ROS Administrator Login",
+  "logout.form.header": "ROS Administrator Logout",
 
   // DSpace default: "DSpace Angular :: "
   "repository.title.prefix": "ROS :: ",

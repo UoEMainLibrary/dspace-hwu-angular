@@ -2768,7 +2768,7 @@
 
   "login.form.forgot-password": "Have you forgotten your password?",
 
-  "login.form.header": "Please log in to DSpace",
+  "login.form.header": "ROS Administrator Login",
 
   "login.form.new-user": "New user? Register here.",
 
@@ -2786,7 +2786,7 @@
 
   "login.breadcrumbs": "Login",
 
-  "logout.form.header": "Log out from DSpace",
+  "logout.form.header": "ROS Administrator Logout",
 
   "logout.form.submit": "Log out",
 
@@ -2794,7 +2794,7 @@
 
   "menu.header.admin": "Management",
 
-  "menu.header.image.logo": "Repository logo",
+  "menu.header.image.logo": "Heriot-Watt University logo",
 
   "menu.header.admin.description": "Management menu",
 
