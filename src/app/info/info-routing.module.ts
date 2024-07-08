@@ -29,68 +29,67 @@ const imports = [
   ])
 ];
 
-  if (environment.info.enableEndUserAgreement) {
-    imports.push(
-      RouterModule.forChild([
-        {
-          path: END_USER_AGREEMENT_PATH,
-          component: ThemedEndUserAgreementComponent,
-          resolve: { breadcrumb: I18nBreadcrumbResolver },
-          data: { title: 'info.end-user-agreement.title', breadcrumbKey: 'info.end-user-agreement' }
-        }
-      ]));
-  }
-  if (environment.info.enablePrivacyStatement) {
-    imports.push(
-      RouterModule.forChild([
-        {
-          path: PRIVACY_PATH,
-          component: ThemedPrivacyComponent,
-          resolve: { breadcrumb: I18nBreadcrumbResolver },
-          data: { title: 'info.privacy.title', breadcrumbKey: 'info.privacy' }
-        }
-      ]));
-  
+if (environment.info.enableEndUserAgreement) {
   imports.push(
     RouterModule.forChild([
       {
-        path: ABOUT_PATH,
-        component: ThemedAboutComponent,
+        path: END_USER_AGREEMENT_PATH,
+        component: ThemedEndUserAgreementComponent,
         resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.about.title', breadcrumbKey: 'info.about' }
+        data: { title: 'info.end-user-agreement.title', breadcrumbKey: 'info.end-user-agreement' }
       }
     ]));
+}
+if (environment.info.enablePrivacyStatement) {
+  imports.push(
+    RouterModule.forChild([
+      {
+        path: PRIVACY_PATH,
+        component: ThemedPrivacyComponent,
+        resolve: { breadcrumb: I18nBreadcrumbResolver },
+        data: { title: 'info.privacy.title', breadcrumbKey: 'info.privacy' }
+      }
+    ]));
+}
+imports.push(
+  RouterModule.forChild([
+    {
+      path: ABOUT_PATH,
+      component: ThemedAboutComponent,
+      resolve: { breadcrumb: I18nBreadcrumbResolver },
+      data: { title: 'info.about.title', breadcrumbKey: 'info.about' }
+    }
+  ]));
 
-  imports.push(
-    RouterModule.forChild([
-      {
-        path: ACCESSIBILITY_PATH,
-        component: ThemedAccessibilityComponent,
-        resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.accessibility.title', breadcrumbKey: 'info.accessibility' }
-      }
-    ]));
+imports.push(
+  RouterModule.forChild([
+    {
+      path: ACCESSIBILITY_PATH,
+      component: ThemedAccessibilityComponent,
+      resolve: { breadcrumb: I18nBreadcrumbResolver },
+      data: { title: 'info.accessibility.title', breadcrumbKey: 'info.accessibility' }
+    }
+  ]));
 
-  imports.push(
-    RouterModule.forChild([
-      {
-        path: COPYRIGHT_PATH,
-        component: ThemedCopyrightComponent,
-        resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.copyright.title', breadcrumbKey: 'info.copyright' }
-      }
-    ]));
+imports.push(
+  RouterModule.forChild([
+    {
+      path: COPYRIGHT_PATH,
+      component: ThemedCopyrightComponent,
+      resolve: { breadcrumb: I18nBreadcrumbResolver },
+      data: { title: 'info.copyright.title', breadcrumbKey: 'info.copyright' }
+    }
+  ]));
 
-  imports.push(
-    RouterModule.forChild([
-      {
-        path: ORGANISED_PATH,
-        component: ThemedOrganisedComponent,
-        resolve: { breadcrumb: I18nBreadcrumbResolver },
-        data: { title: 'info.organised.title', breadcrumbKey: 'info.organised' }
-      }
-    ]));
-  }
+imports.push(
+  RouterModule.forChild([
+    {
+      path: ORGANISED_PATH,
+      component: ThemedOrganisedComponent,
+      resolve: { breadcrumb: I18nBreadcrumbResolver },
+      data: { title: 'info.organised.title', breadcrumbKey: 'info.organised' }
+    }
+  ]));
 
 @NgModule({
   imports: [
