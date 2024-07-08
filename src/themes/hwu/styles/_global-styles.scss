@@ -148,3 +148,8 @@ li[ds-navbar-section] {
 .div-table-stats-column-2-bold {
   font-weight: bold;
 }
+
+// Fix for item page metadata formatting
+.preserve-line-breaks {
+  white-space: normal;
+}
