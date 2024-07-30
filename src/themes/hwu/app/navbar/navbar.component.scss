@@ -1,0 +1,16 @@
+:host {
+
+  .navbar {
+    background-color: var(--ds-top-footer-bg);
+  }
+
+  .navbar-inner-container {
+    background-color: var(--ds-footer-bg);
+  }
+
+  ::ng-deep a.nav-link.admin-login-link,
+  ::ng-deep a.nav-link.admin-login-link:hover {
+    color: white;
+  }
+
+}

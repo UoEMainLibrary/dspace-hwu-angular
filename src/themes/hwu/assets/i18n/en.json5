@@ -1,0 +1,22 @@
+{
+  // DSpace default: "All of DSpace"
+  "menu.header.image.logo": "Heriot-Watt University logo",
+  "menu.section.browse_global": "Browse ROS",
+  "home.top-level-communities.head": "Communities in ROS",
+
+  "login.form.header": "ROS Administrator Login",
+  "logout.form.header": "ROS Administrator Logout",
+
+  // DSpace default: "DSpace Angular :: "
+  "repository.title.prefix": "ROS :: ",
+
+  // Custom components
+  "info.about.title": "About",
+  "info.about.breadcrumbs": "About",
+  "info.accessibility.title": "Accessibility",
+  "info.accessibility.breadcrumbs": "Accessibility",
+  "info.copyright.title": "Copyright",
+  "info.copyright.breadcrumbs": "Copyright",
+  "info.organised.title": "Organised",
+  "info.organised.breadcrumbs": "Organised",
+}

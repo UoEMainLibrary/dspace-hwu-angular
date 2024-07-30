@@ -1,0 +1,53 @@
+<header>
+  <!-- <div class="container-fluid hwu-header-content">
+    <div class="container hwu-header">
+    
+      <div class="d-flex flex-row justify-content-between">
+        <div class="header-logo">
+        <a title="Heriot-Watt University Home" class="navbar-brand my-2" routerLink="/home">
+          <img src="/assets/hwu/images/hwu-header-logo.svg" [attr.alt]="'menu.header.image.logo' | translate" />
+        </a>
+        </div>
+        <h1 class="hidden-xs hidden-sm">
+          <a routerLink="/home">
+            ROS Theses Repository
+          </a>
+        </h1> -->
+
+  <div class="container-fluid hwu-header-content">
+    <div class="container hwu-header">
+      <div class="d-flex flex-row justify-content-left">
+        <a class="col-md-4 m-2" href="https://www.hw.ac.uk/" target="_blank">
+          <img class="img-fluid hwu-header-logo" src="/assets/hwu/images/hwu-header-logo.svg"
+            [attr.alt]="'menu.header.image.logo' | translate" />
+        </a>
+
+        <h1 class="col-md-6 m-2" routerLink="/home">
+          <a class="hidden-xs hidden-sm d-block">ROS Theses Repository</a>
+        </h1>
+        <!-- </div> -->
+        <!-- </div>
+        </div>
+        <div class="container-fluid hwu-header-content">
+          <div class="container hwu-header"> -->
+        <!-- <div class="d-flex flex-row justify-content-end"> -->
+        <div class="col-md-2 m-2">
+          <nav role=" navigation" [attr.aria-label]="'nav.user.description' | translate"
+            class="navbar navbar-light navbar-expand-md flex-shrink-0 px-0">
+            <ds-search-navbar></ds-search-navbar>
+            <ds-lang-switch></ds-lang-switch>
+            <ds-context-help-toggle></ds-context-help-toggle>
+            <ds-auth-nav-menu></ds-auth-nav-menu>
+            <ds-impersonate-navbar></ds-impersonate-navbar>
+            <div *ngIf="isMobile$ | async" class="pl-2">
+              <button class="navbar-toggler px-0" type="button" (click)="toggleNavbar()" aria-controls="collapsingNav"
+                aria-expanded="false" [attr.aria-label]="'nav.toggle' | translate">
+                <span class="fas fa-bars fa-fw toggler-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

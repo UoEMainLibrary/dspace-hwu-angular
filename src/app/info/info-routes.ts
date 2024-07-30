@@ -15,9 +15,19 @@ import {
   END_USER_AGREEMENT_PATH,
   FEEDBACK_PATH,
   PRIVACY_PATH,
+  ABOUT_PATH, 
+  ACCESSIBILITY_PATH, 
+  COPYRIGHT_PATH, 
+  ORGANISED_PATH
 } from './info-routing-paths';
 import { NotifyInfoComponent } from './notify-info/notify-info.component';
 import { ThemedPrivacyComponent } from './privacy/themed-privacy.component';
+// CUSTOMISED
+import { ThemedAboutComponent } from './about/themed-about.component';
+import { ThemedAccessibilityComponent } from './accessibility/themed-accessibility.component';
+import { ThemedCopyrightComponent } from './copyright/themed-copyright.component';
+import { ThemedOrganisedComponent } from './organised/themed-organised.component';
+
 
 
 export const ROUTES: Routes = [
@@ -52,4 +62,29 @@ export const ROUTES: Routes = [
       breadcrumbKey: 'info.coar-notify-support',
     },
   } : undefined,
+  {
+    path: ABOUT_PATH,
+    component: ThemedAboutComponent,
+    resolve: { breadcrumb: i18nBreadcrumbResolver },
+    data: { title: 'info.about.title', breadcrumbKey: 'info.about' }
+  },
+  {
+    path: ACCESSIBILITY_PATH,
+    component: ThemedAccessibilityComponent,
+    resolve: { breadcrumb: i18nBreadcrumbResolver },
+    data: { title: 'info.accessibility.title', breadcrumbKey: 'info.accessibility' }
+  },
+  {
+    path: COPYRIGHT_PATH,
+    component: ThemedCopyrightComponent,
+    resolve: { breadcrumb: i18nBreadcrumbResolver },
+    data: { title: 'info.copyright.title', breadcrumbKey: 'info.copyright' }
+  },
+  {
+    path: ORGANISED_PATH,
+    component: ThemedOrganisedComponent,
+    resolve: { breadcrumb: i18nBreadcrumbResolver },
+    data: { title: 'info.organised.title', breadcrumbKey: 'info.organised' }
+  }
+
 ].filter((route: Route) => hasValue(route));

@@ -1,0 +1,41 @@
+.hwu-header {
+  background-color: #003C71;
+}
+
+.hwu-header-logo {
+  height: 6rem;
+  color: #ffffff;
+}
+
+.img-fluid {
+  max-width: 115%;
+}
+
+.hwu-header-content {
+  background-color: #003C71;
+}
+
+.hwu-header h1 a {
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.hwu-header h1 a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.hwu-header h1 a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #ffffff;
+  color: #ffffff;
+}
+
+#sidebar a:link,
+#sidebar a:visited,
+#sidebar a {
+  color: #ffffff;
+}
