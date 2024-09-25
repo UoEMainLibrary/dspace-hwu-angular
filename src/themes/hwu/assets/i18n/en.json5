@@ -8,6 +8,7 @@
   "logout.form.header": "ROS Administrator Logout",
 
   // DSpace default: "DSpace Angular :: "
+  "repository.title": "ROS Repository",
   "repository.title.prefix": "ROS :: ",
 
   // Custom components
