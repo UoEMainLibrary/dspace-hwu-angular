@@ -1,41 +1,57 @@
-.hwu-header {
-  background-color: #003C71;
+/* deafuat header css */
+.navbar-brand img {
+  max-height: 7rem !important;
+  max-width: 20rem !important;
+
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    max-height: var(--ds-header-logo-height-xs);
+  }
 }
 
-.hwu-header-logo {
-  height: 6rem;
-  color: #ffffff;
+.navbar-toggler .navbar-toggler-icon {
+  background-image: none !important;
+  line-height: 1.5;
 }
 
-.img-fluid {
-  max-width: 115%;
+.navbar-toggler {
+  border: none;
+  color: #003C71;
+
+  &:hover,
+  &:focus {
+    color: var(--ds-header-icon-color-hover);
+  }
 }
 
-.hwu-header-content {
-  background-color: #003C71;
+/* custom header css */
+header {
+  background-color: #003C71 !important;
 }
 
-.hwu-header h1 a {
-  color: #ffffff;
-  font-size: 2.8rem;
-  font-weight: 200;
-  margin-top: 0.5rem;
-  margin-left: 2.5rem;
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 3rem 3rem 2rem 0rem;
+  margin: 0px;
+  width: 100%;
 }
 
-.hwu-header h1 a {
-  color: #ffff;
+a {
+  color: #fff;
+}
+
+a:hover {
   text-decoration: none;
 }
 
-.hwu-header h1 a:hover {
-  text-decoration: none;
-  border-bottom: 1px dotted #ffffff;
-  color: #ffffff;
+.hwu-logo {
+  height: 20rem;
 }
 
-#sidebar a:link,
-#sidebar a:visited,
-#sidebar a {
-  color: #ffffff;
+a.navbar-brand.my-2 {
+  margin: 0;
 }

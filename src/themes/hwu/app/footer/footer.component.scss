@@ -48,6 +48,11 @@
       }
     }
   }
+  .hwu-footer-links {
+    .col {
+      flex-grow: unset;
+    }
+  }
 }
 
 
