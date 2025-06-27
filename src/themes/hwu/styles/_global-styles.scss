@@ -355,3 +355,15 @@ i.fas.fa-lock {
         max-height: #{$i * 20}rem !important;
     }
 }
+
+/* Fix abstract field line breaks */
+ds-item-page-abstract-field .simple-view-element-body .preserve-line-breaks {
+  white-space: normal !important;
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+ds-item-page-abstract-field .simple-view-element-body .dont-break-out {
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
