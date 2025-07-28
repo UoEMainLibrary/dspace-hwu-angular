@@ -32,7 +32,7 @@
       [metadataFields]="['dc.contributor.author', 'dc.creator']"
       [label]="'relationships.isAuthorOf' | translate">
     </ds-metadata-representation-list>
-    <ds-generic-item-page-field [item]="object"
+    <!-- <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
       [label]="'item.page.journal-title'">
     </ds-generic-item-page-field>
@@ -47,7 +47,7 @@
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.publisher']"
       [label]="'item.page.publisher'">
-    </ds-generic-item-page-field>
+    </ds-generic-item-page-field> -->
   </div>
   <div class="col-xs-12 col-md-6">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
@@ -56,7 +56,7 @@
       [label]="'item.page.description'">
     </ds-generic-item-page-field>
 
-    <ds-generic-item-page-field [item]="object"
+    <!-- <ds-generic-item-page-field [item]="object"
       [fields]="['dc.subject']"
       [separator]="', '"
       [label]="'item.page.subject'">
@@ -64,13 +64,13 @@
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
       [label]="'item.page.citation'">
-    </ds-generic-item-page-field>
+    </ds-generic-item-page-field> -->
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.uri']"
       [label]="'item.page.uri'">
     </ds-item-page-uri-field>
     <ds-item-page-collections [item]="object"></ds-item-page-collections>
-    <ds-item-page-uri-field [item]="object"
+    <!-- <ds-item-page-uri-field [item]="object"
       [fields]="['coar.notify.endorsedBy']"
       [label]="'item.page.endorsement'">
     </ds-item-page-uri-field>
@@ -87,7 +87,7 @@
       [label]="'item.page.referenced'">
     </ds-item-page-uri-field>
     <ds-item-page-cc-license-field [item]="object" [variant]="'full'">
-    </ds-item-page-cc-license-field>
+    </ds-item-page-cc-license-field> -->
     <div>
       <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']" role="button">
         <i class="fas fa-info-circle"></i> {{"item.page.link.full" | translate}}
