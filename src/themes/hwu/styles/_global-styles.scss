@@ -82,10 +82,6 @@ li.breadcrumb-item.active {
     background-color: #f9f9f9 !important;
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
-    content: "" !important;
-}
-
 .text-truncate {
     color: #3a3a3a !important;
     font-size: 1.1rem;
