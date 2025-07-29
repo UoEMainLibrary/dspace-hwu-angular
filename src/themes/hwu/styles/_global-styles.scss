@@ -348,13 +348,13 @@ i.fas.fa-lock {
 }
 
 // Overwritting scss in src/styles/_truncatable-part.component.scss
-@for $i from 1 through 15 {
-    .clamp-default-#{$i} .content,
-    :focus .clamp-default-#{$i} .content,
-    .ds-hover .clamp-default-#{$i} .content {
-        max-height: #{$i * 20}rem !important;
-    }
-}
+// @for $i from 1 through 15 {
+//     .clamp-default-#{$i} .content,
+//     :focus .clamp-default-#{$i} .content,
+//     .ds-hover .clamp-default-#{$i} .content {
+//         max-height: #{$i * 20}rem !important;
+//     }
+// }
 
 /* Fix abstract field line breaks */
 ds-item-page-abstract-field .simple-view-element-body .preserve-line-breaks {
