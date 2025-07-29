@@ -32,7 +32,7 @@ li.breadcrumb-item.active {
   color: var(--ds-breadcrumb-link-active-color);
 }
 
-// .breadcrumb-item+ .breadcrumb-item::before {
-//   display: block;
-//   content: quote("•") !important;
-// }
+.breadcrumb-item+ .breadcrumb-item::before {
+  display: block;
+  content: quote("") !important;
+}
