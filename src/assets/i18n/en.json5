@@ -4536,6 +4536,13 @@
 
   "search.filters.filter.supervisedBy.label": "Search Supervised By",
 
+  // Custom
+  "search.filters.filter.titleFacet.head": "Titles",
+
+  "search.filters.filter.titleFacet.placeholder": "Titles",
+
+  "search.filters.filter.titleFacet.label": "Titles",
+
   "search.filters.entityType.JournalIssue": "Journal Issue",
 
   "search.filters.entityType.JournalVolume": "Journal Volume",
