@@ -37,6 +37,10 @@ h2.no-bottom-border {
     border-bottom: none !important;
 }
 
+h4.my-1 {
+    color: #fff;
+}
+
 a {
     // color: ##003C71;
 }
@@ -68,7 +72,7 @@ i.fas.fa-globe-asia.fa-lg.fa-fw {
 }
 
 .breadcrumb {
-    padding: 0px;
+    padding: 0px!important;
     list-style: none !important;
 }
 
@@ -165,7 +169,6 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
 
 .filters .toggle-more-filters a,
 .filter-value {
-    // color: ##003C71 !important;
     text-decoration: none !important;
 }
 
