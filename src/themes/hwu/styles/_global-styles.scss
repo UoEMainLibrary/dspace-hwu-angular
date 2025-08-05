@@ -78,7 +78,7 @@ li.breadcrumb-item {
 }
 
 li.breadcrumb-item.active {
-    border-bottom: 4px solid var(--bs-blue) !important;
+    border-bottom: 4px solid #003C71 !important;
     background-color: #f9f9f9 !important;
 }
 
@@ -160,7 +160,7 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
 .facet-filter,
 .setting-option {
     background-color: #fff !important;
-    border: 1px solid var(--bs-blue) !important;
+    border: 1px solid #003C71 !important;
 }
 
 .filters .toggle-more-filters a,
