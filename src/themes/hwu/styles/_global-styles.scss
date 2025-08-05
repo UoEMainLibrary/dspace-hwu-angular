@@ -41,14 +41,6 @@ h4.my-1 {
     color: #fff;
 }
 
-a {
-    // color: ##003C71;
-}
-
-a:hover {
-    // color: ##003C71;
-}
-
 i.fas.fa-globe-asia.fa-lg.fa-fw {
     color: #fff;
 }
@@ -99,7 +91,7 @@ li.breadcrumb-item:hover {
 
 li.breadcrumb-item:hover a.text-truncate {
     text-decoration: none;
-    color: var(--bs-blue) !important;
+    color: #003C71!important;
 }
 
 li[ds-navbar-section] {
@@ -109,18 +101,9 @@ li[ds-navbar-section] {
     }
 }
 
-.btn-primary,
-.btn-secondary,
-button.btn.btn-lg.btn-primary.btn-block {
-    // background-color: var(--bs-blue);
-    // border-color: var(--bs-blue);
-}
-
 .btn-primary:hover,
 .btn-secondary:hover,
 button.btn.btn-lg.btn-primary.btn-block:hover {
-    // background-color: ##003C71;
-    // border-color: ##003C71;
     text-decoration: underline;
 }
 
@@ -128,13 +111,6 @@ button#save span,
 button#saveForLater span,
 button#deposit span {
     color: #fff;
-}
-
-button.btn.btn-secondary.active,
-.btn-secondary:not(:disabled):not(.disabled):active,
-.btn-secondary:not(:disabled):not(.disabled).active,
-.show>.btn-secondary.dropdown-toggle {
-    // background-color: ##003C71
 }
 
 a.btn.btn-outline-primary {
@@ -148,18 +124,14 @@ i.fas.fa-info-circle {
 
 .btn-outline-secondary:hover,
 a.btn.btn-outline-primary:hover {
-    color: var(--bs-blue) !important;
+    color: #003C71!important;
     background-color: #fff9fd;
     text-decoration: underline !important;
 }
 
 a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
-    color: var(--bs-blue) !important;
+    color: #003C71!important;
 }
-
-// .form-control {
-//    color: ##003C71 !important;
-// }
 
 .facet-filter,
 .setting-option {
@@ -174,7 +146,7 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
 
 .filters .toggle-more-filters a:hover,
 .filter-value:hover {
-    color: var(--bs-blue) !important;
+    color: #003C71!important;
     text-decoration: underline !important;
 }
 
@@ -182,13 +154,8 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
     text-decoration: none !important;
 }
 
-.dropdown-item {
-    // color: ##003C71;
-}
-
 .dropdown-item:hover,
 .dropdown-item:focus {
-    // color: var(--bs-blue);
     text-decoration: underline;
     background-color: #FFF;
 }
@@ -196,17 +163,6 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
 .dropdown-item.active,
 .dropdown-item:active {
     background-color: #f9f9f9 !important;
-    // color: var(--bs-blue) !important;
-}
-
-.page-link {
-    // color: ##003C71;
-}
-
-.page-item.active .page-link {
-    // background-color: var(--bs-blue) !important;
-    // border-color: var(--bs-blue) !important;
-//    color: ##003C71 !important;
 }
 
 .badge-info,
@@ -218,30 +174,10 @@ a.btn.btn-outline-primary:hover i.fas.fa-info-circle {
     border-bottom: 0px;
 }
 
-.nav-item .nav-link,
-.nav-item .nav-link span {
-    // color: ##003C71;
-}
-
-.dropdown-toggle::after {
-    // color: ##003C71 !important;
-}
-
-
-
 .facet-filter-header {
     font-size: 1.1rem;
     font-weight: 400;
     padding: 10px 0px;
-    // color: var(--bs-blue);
-}
-
-.facet-filter .fas {
-    // color: var(--bs-blue);
-}
-
-i.fas.fa-lock {
-    // color: ##003C71;
 }
 
 .position-relative {
@@ -342,23 +278,14 @@ i.fas.fa-lock {
     font-size: 1.5em !important;
 }
 
-// Overwritting scss in src/styles/_truncatable-part.component.scss
-// @for $i from 1 through 15 {
-//     .clamp-default-#{$i} .content,
-//     :focus .clamp-default-#{$i} .content,
-//     .ds-hover .clamp-default-#{$i} .content {
-//         max-height: #{$i * 20}rem !important;
-//     }
-// }
-
 /* Fix abstract field line breaks */
 ds-item-page-abstract-field .simple-view-element-body .preserve-line-breaks {
-  white-space: normal !important;
-  word-wrap: break-word;
-  line-height: 1.6;
+    white-space: normal !important;
+    word-wrap: break-word;
+    line-height: 1.6;
 }
 
 ds-item-page-abstract-field .simple-view-element-body .dont-break-out {
-  word-break: normal !important;
-  overflow-wrap: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
 }
