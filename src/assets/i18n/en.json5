@@ -764,9 +764,9 @@
 
   "administrativeView.search.results.head": "Administrative Search",
 
-  "admin.workflow.breadcrumbs": "Administer Workflow",
+  "admin.workflow.breadcrumbs": "Submissions",
 
-  "admin.workflow.title": "Administer Workflow",
+  "admin.workflow.title": "Submissions",
 
   "admin.workflow.item.workflow": "Workflow",
 
@@ -3300,7 +3300,7 @@
 
   "menu.section.icon.statistics_task": "Statistics Task menu section",
 
-  "menu.section.icon.workflow": "Administer workflow menu section",
+  "menu.section.icon.workflow": "Submissions menu section",
 
   "menu.section.icon.unpin": "Unpin sidebar",
 
@@ -3370,7 +3370,7 @@
 
   "menu.section.toggle.statistics_task": "Toggle Statistics Task section",
 
-  "menu.section.workflow": "Administer Workflow",
+  "menu.section.workflow": "Submissions",
 
   "metadata-export-search.tooltip": "Export search results as CSV",
 
@@ -5633,7 +5633,7 @@
 
   "workspace.search.results.head": "Your submissions",
 
-  "workflowAdmin.search.results.head": "Administer Workflow",
+  "workflowAdmin.search.results.head": "Submissions",
 
   "workflow.search.results.head": "Workflow tasks",
 
