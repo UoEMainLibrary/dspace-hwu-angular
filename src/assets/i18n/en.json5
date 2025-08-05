@@ -768,7 +768,7 @@
 
   "admin.workflow.title": "Submissions",
 
-  "admin.workflow.item.workflow": "Workflow",
+  "admin.workflow.item.workflow": "Submission",
 
   "admin.workflow.item.workspace": "Workspace",
 
@@ -1108,7 +1108,7 @@
 
   "claimed-declined-search-result-list-element.title": "Rejected, sent back to submitter",
 
-  "claimed-declined-task-search-result-list-element.title": "Declined, sent back to Review Manager's workflow",
+  "claimed-declined-task-search-result-list-element.title": "Declined, sent back to Review Manager's submissions",
 
   "collection.create.breadcrumbs": "Create collection",
 
@@ -2894,7 +2894,7 @@
 
   "item.version.history.table.workspaceItem": "Workspace item",
 
-  "item.version.history.table.workflowItem": "Workflow item",
+  "item.version.history.table.workflowItem": "Submission item",
 
   "item.version.history.table.actions": "Action",
 
@@ -3434,7 +3434,7 @@
 
   "mydspace.search-form.placeholder": "Search in MyDSpace...",
 
-  "mydspace.show.workflow": "Workflow tasks",
+  "mydspace.show.workflow": "Submission tasks",
 
   "mydspace.show.workspace": "Your submissions",
 
@@ -3446,7 +3446,7 @@
 
   "mydspace.status.mydspaceWaitingController": "Waiting for reviewer",
 
-  "mydspace.status.mydspaceWorkflow": "Workflow",
+  "mydspace.status.mydspaceWorkflow": "Submission",
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
@@ -4569,7 +4569,7 @@
 
   "search.filters.namedresourcetype.Waiting for Controller": "Waiting for reviewer",
 
-  "search.filters.namedresourcetype.Workflow": "Workflow",
+  "search.filters.namedresourcetype.Workflow": "Submission",
 
   "search.filters.namedresourcetype.Workspace": "Workspace",
 
@@ -5369,7 +5369,7 @@
 
   "submission.sections.duplicates.in-workspace": "This item is in workspace",
 
-  "submission.sections.duplicates.in-workflow": "This item is in workflow",
+  "submission.sections.duplicates.in-workflow": "This item is in submission",
 
   "submission.sections.license.granted-label": "I confirm the license above",
 
@@ -5661,7 +5661,7 @@
 
   "workflow-item.send-back.notification.success.title": "Sent back to submitter",
 
-  "workflow-item.send-back.notification.success.content": "This workflow item was successfully sent back to the submitter",
+  "workflow-item.send-back.notification.success.content": "This submission item was successfully sent back to the submitter",
 
   "workflow-item.send-back.notification.error.title": "Something went wrong",
 
