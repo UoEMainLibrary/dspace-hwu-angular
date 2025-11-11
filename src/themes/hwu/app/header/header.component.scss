@@ -1,7 +1,10 @@
 /* deafuat header css */
-.navbar-brand img {
-  max-height: 7rem !important;
-  max-width: 20rem !important;
+a.header-brand.my-2 {
+    width: 35rem;
+}
+.header-brand img {
+  width: 100%;
+  height: 100%;
 
   @media screen and (max-width: map-get($grid-breakpoints, sm)) {
     max-height: var(--ds-header-logo-height-xs);
