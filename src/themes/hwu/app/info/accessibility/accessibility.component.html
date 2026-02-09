@@ -6,13 +6,11 @@
     <p>This website is run by the Library and University Collections Directorate, Information Services Group at the University of Edinburgh. We want as many people as possible to be able to use this application. For example, that means you should be able to:</p>
     <ul>
         <li>Change most colours and contrast levels</li>
-        <li>Navigate most of the site using voice recognition software e.g. Dragon</li>
-        <li>Magnify the content to 400% without text spilling of the side of the screen</li>
-        <li>Use the site without encountering any scrolling, flashing or moving text </li>
+        <li>Encounter no need for dragging movements</li>
     </ul>
     <p>We’ve also made the website text as simple as possible to understand. However, some of our content is technical, and we use technical terms where there is no easier wording we could use without changing what the text means.</p>
 
-        <h2>Customising the website</h2>
+    <h2>Customising the website</h2>
     <p>AbilityNet has advice on making your device easier to use if you have a disability. This is an external site with suggestions to make your computer more accessible:</p>
     <p>
         <a href="https://mcmw.abilitynet.org.uk/" title="Link to the AbilityNet website">AbilityNet - My computer my way</a>
@@ -30,28 +28,38 @@
     <p>We know some parts of this website are not fully accessible:</p>
     <ul>
         <li>It is not possible to keyboard navigate to all content</li>
-        <li>Keyboard navigation is not displayed consistently on all browsers and it can be hard to tell where you have tabbed to</li>
+        <li>There is a keyboard trap on the site</li>
+        <li>Keyboard navigation focus indicators can be hard to see.</li>
+        <li>There are tooltips that are not accessible by keyboard or by assistive software</li>
         <li>The skip to main content function is not visible</li>
         <li>The website is not fully compatible with assistive technologies such as screen readers and voice recognition software</li>
+        <li>Reflow is not enabled to 400%</li>
         <li>There are pop ups that open without warning </li>
         <li>There are pop-ups that obscure or render other content inaccessible</li>
         <li>There are some instances where colour contrast does not meet the WCAG 2.2 AA standard</li>
-        <li>There are some interactions that do not have alternatives to dragging movements</li>
-        <li>Text is displayed over an image</li>
-        <li>There are time limits that cannot be extended</li>
+        <li>There are examples of text as images</li>
+        <li>Not all non-text content has a text alternative</li>
+        <li>There are examples of information conveyed by colour only, for example links that are not underlined </li>
+        <li>There are examples of links without meaningful hypertext</li>
+        <li>There are time limits that cannot be extended in that data validation message disappear without user interaction </li>
+        <li>There is some moving content that cannot be stopped or paused by the user</li>
+        <li>Some content does not magnify correctly above 300%</li>
+        <li>Some heading levels are missing throughout the site</li>
+        <li>Error suggestions are not always given and appear in an inaccessible manner</li>
+        <li>There are PDFs on the site that may not be fully accessible</li>
     </ul>
 
     <h2>Feedback and contact information</h2>
     <p>If you need information on this website in a different format, including accessible PDF, large print, audio recording or braille:</p>
-    <p>Email: <a href="mailto:Information.systems&#64;ed.ac.uk" title="Link to the Exam Papers email">Information.systems&#64;ed.ac.uk</a></p>
-    <p>Telephone: +44 (0)131 651 5151</p>
+    <p>Email: <a href="mailto:open.access@hw.ac.uk" title="Link to the ROS email">open.access&#64;hw.ac.uk</a></p>
+    <p>Telephone: +44 (0)131 451 3577</p>
     <p>British Sign Language (BSL) users can contact us via <strong><a href="http://contactscotland-bsl.org/">Contact Scotland BSL</a></strong>, the on-line BSL interpreting service</p>
     <p>We'll consider your request and get back to you in 5 working days.</p>
 
     <h2>Reporting accessibility problems with this website</h2>
     <p>We are always looking to improve the accessibility of this website. If you find any problems not listed on this page, or think we’re not meeting accessibility requirements, please contact:</p>
-    <p>Email: <a href="mailto:Information.systems&#64;ed.ac.uk" title="Link to the Exam Papers email">Information.systems&#64;ed.ac.uk</a></p>
-    <p>Telephone: +44 (0)131 651 5151</p>
+    <p>Email: <a href="mailto:open.access@hw.ac.uk" title="Link to the ROS email">open.access&#64;hw.ac.uk</a></p>
+    <p>Telephone: +44 (0)131 451 3577</p>
     <p>British Sign Language (BSL) users can contact us via <strong><a href="http://contactscotland-bsl.org/">Contact Scotland BSL</a></strong>, the on-line BSL interpreting service</p>
     <p>We'll consider your request and get back to you in 5 working days.</p>
 
@@ -87,9 +95,19 @@
     <p><strong>Noncompliance with the accessibility regulations.</strong></p>
     <p>The following items to not comply with the WCAG 2.1 AA success criteria:</p>
     <ol>
+        <li>Not all non-text content has appropriate alternative text.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#non-text-content" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.1.1 Non-text content</a></li>
+            </ul>
+        </li>
         <li>Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.  e.g. certain ARIA roles are not contained by particular parents and some ARIA roles do not contain specific children.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#info-and-relationships" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.3.1 Info and Relationships</a></li>
+            </ul>
+        </li>
+        <li>There are examples of information conveyed by colour only.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#use-of-color" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.1 Use of colour</a></li>
             </ul>
         </li>
         <li>There may not be sufficient colour contrast between font and background colours for data validation.
@@ -97,20 +115,35 @@
                 <li><a href="https://www.w3.org/TR/WCAG22/#contrast-minimum" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.3 Contrast (Minimum)</a></li>
             </ul>
         </li>
-        <li >Not all content can be reached and interacted with by keyboard alone.
+        <li>There are examples of text as an image.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#images-of-text" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.5 Images of Text</a></li>
+            </ul>
+        </li>
+        <li>Items do not reflow properly above 300% meaning some content is cut off or overlaps.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#reflow" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.10 Reflow</a></li>
+            </ul>
+        </li>
+        <li>Not all content can be reached and interacted with by keyboard alone.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#keyboard" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.1.1 Keyboard</a></li>
             </ul>
         </li>
-        <li>Keyboard focus encounters a keyboard trap on Mozilla Firefox and while using JAWS and Dragon Naturally Speaking on Mozilla Firefox.
+        <li>Keyboard focus encounters a keyboard trap.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#no-keyboard-trap" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.1.2 No Keyboard Trap</a></li>
             </ul>
         </li>
-        <li>There are time limits which cannot be extended e.g. there are pop ups where it is not possible to pause, stop, or adjust the time it is presented for.
+        <li>There are time limits which cannot be extended e.g. there are pop ups which appear for a limited amount of time and then disappear without altering the use.
             <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.13 Content on hover or focus</a></li>
                 <li><a href="https://www.w3.org/TR/WCAG22/#timing-adjustable" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.2.1 Timing Adjustable</a></li>
-                <li><a href="https://www.w3.org/TR/WCAG22/#pause-stop-hide" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.2.2 Pause, Stop, Hide</a></li>
+            </ul>
+        </li>
+        <li>There is movement that the end user cannot pause.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#pause-stop-hide" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.2.2 Pause Stop Hide</a></li>
             </ul>
         </li>
         <li>Although a skip to main content option is present this is only accessible for screen reader users as the visual presentation is blocked by other content on the page.
@@ -119,14 +152,19 @@
                 <li><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.11 Focus not Obscured Minimum</a></li>
             </ul>
         </li>
+        <li>There are links on the site without meaningful hypertext.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#link-purpose-in-context" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.4 Link Purpose (In Context)</a></li>
+            </ul>
+        </li>
+        <li>Some heading levels are missing or skipped on the site.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.6 Headings and Labels</a></li>
+            </ul>
+        </li>
         <li>It is not always clear where you have navigated to using the keyboard.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#focus-visible" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.7 Focus Visible</a></li>
-            </ul>
-        </li>
-        <li>There is content that requires a dragging movement for which there is no keyboard alternative.
-            <ul>
-                <li><a href="https://www.w3.org/TR/WCAG22/#dragging-movements" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.5.7 Dragging Movements</a></li>
             </ul>
         </li>
         <li>Pop ups open without warning the user this will happen.
@@ -134,19 +172,30 @@
                 <li><a href="https://www.w3.org/TR/WCAG22/#on-input" title="Link to the Web Content Accessibility Guidelines (WCAG) website">3.2.2 On Input</a></li>
             </ul>
         </li>
+        <li>Error suggestions are not always displayed for incorrect data formats.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#error-identification" title="Link to the Web Content Accessibility Guidelines (WCAG) website">3.3.1 Error Identification</a></li>
+            </ul>
+        </li>
         <li>Error suggestions or corrections are not always displayed.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG22/#error-suggestion" title="Link to the Web Content Accessibility Guidelines (WCAG) website">3.3.3 Error Suggestion</a></li>
             </ul>
         </li>
-        <li>Screen readers are not able to identify some parts of the page e.g. Form elements do not always have labels, buttons do not always have discernible text, some interactive controls are nested, not all ARIA attributes conform to valid values.
+        <li>The site is not fully compatible with assistive software such as Screen readers  or voice recognition software  e.g. ARIA hidden elements are focusable, interactive controls are nested and select elements do not have an accessible name.
             <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#name-role-value" title="Link to the Web Content Accessibility Guidelines (WCAG) website">4.1.2 Name, Role, Value</a></li>
+            </ul>
+        </li>
+        <li>There may be PDFs on the site that are inaccessible.
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG22/#non-text-content" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.1.1 Non-text content</a></li>
                 <li><a href="https://www.w3.org/TR/WCAG22/#name-role-value" title="Link to the Web Content Accessibility Guidelines (WCAG) website">4.1.2 Name, Role, Value</a></li>
             </ul>
         </li>
     </ol>
     <p>We aim to improve our websites accessibility on a regular and continuous basis. See the section below ('What we're doing to improve accessibility') on how we are improving our site accessibility.</p>
-    <p>We are working towards solving these problems and expect significant improvements by July 2025. The site is fully within our control.</p>
+    <p>We are working towards solving these problems and expect significant improvements by February 2027. The site is fully within our control.</p>
 
     <h2>Disproportionate burden</h2>
     <p>We are not currently claiming that any accessibility problems would be a disproportionate burden to fix.</p>
@@ -155,12 +204,12 @@
     <p>At this time, we do not believe that any content is outside the scope of the accessibility regulations.</p>
 
     <h2>What we're doing to improve accessibility</h2>
-    <p>We will continue to address and make significant improvements to the accessibility issues highlighted. Unless specified otherwise, a complete solution or significant improvement will be in place by July 2026. </p>
+    <p>We will continue to address and make significant improvements to the accessibility issues highlighted. Unless specified otherwise, a complete solution or significant improvement will be in place by February 2027. </p>
     <p>While we are in the process of resolving these accessibility issues we will ensure reasonable adjustments are in place to make sure no user is disadvantaged. As changes are made, we will continue to review accessibility and retest the accessibility of this website.</p>
 
     <h2>Preparation of this accessibility statement</h2>
-    <p><strong>This statement was prepared on September 2021. It was last reviewed on 03rd July 2025.</strong></p>
-    <p><strong>The website was last tested on 26th June 2025. The testing was carried out by Library and University Collections, Information Services Group at the University of Edinburgh</strong> using both automated and manual methods. The site was tested on a PC, primarily using Microsoft Edge alongside Mozilla Firefox and Google Chrome.</p>
+    <p><strong>This statement was prepared on 23rd September 2021. It was last reviewed on 9th February 2026.</strong></p>
+    <p><strong>The website was last tested on 3rd February 2026. The testing was carried out by Library and University Collections, Information Services Group at the University of Edinburgh</strong> using both automated and manual methods. The site was tested on a PC, primarily using Microsoft Edge alongside Mozilla Firefox and Google Chrome.</p>
     <p>Recent world-wide usage levels survey for different screen readers and browsers shows that Chrome, Mozilla Firefox and Microsoft Edge are increasing in popularity and Google Chrome is now the favoured browser for screen readers:</p>
     <p>
         <a href="https://webaim.org/projects/screenreadersurvey9/" title="Link to the WebAIM Screen Reader User Survey">WebAIM: Screen Reader User Survey</a>
@@ -188,26 +237,6 @@
 
     <h2>Change Log</h2>
     <ol>
-        <li>A ‘skip to main content’ option has been added that is audible to users of assistive software but is not visually apparent as it is blocked by other content so this later aspect needs to be resolved to fully meet the criteria.</li>
-        <li>All non-text content that is presented to the user has a text alternative that serves the equivalent purpose.
-            <ul>
-                <li><a href="https://www.w3.org/TR/WCAG21/#non-text-content" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.1.1 - Non-text Content</a></li>
-            </ul>
-        </li>
-        <li>All the content reflows when the page is magnified above 200%.
-            <ul>
-                <li><a href="https://www.w3.org/TR/WCAG21/#reflow" title="Link to the Web Content Accessibility Guidelines (WCAG) website">1.4.10 - Reflow</a></li>
-            </ul>
-        </li>
-        <li>There are no missing heading levels.
-            <ul>
-                <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels" title="Link to the Web Content Accessibility Guidelines (WCAG) website">2.4.6. - Headings and Labels</a></li>
-            </ul>
-        </li>
-        <li>There are no missing labels present in the website so fail to describe the purpose of the input form.
-            <ul>
-                <li><a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions" title="Link to the Web Content Accessibility Guidelines (WCAG) website">3.3.2 - Labels or Instruction</a></li>
-            </ul>
-        </li>       
+        <li>December 2025 - A ‘skip to main content’ option has been added that is audible to users of assistive software but is not visually apparent as it is blocked by other content so this later aspect needs to be resolved to fully meet the criteria.</li>   
     </ol>
 </div>
